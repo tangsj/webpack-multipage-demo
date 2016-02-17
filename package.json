@@ -1,0 +1,28 @@
+{
+  "name": "webpack-multipage-demo",
+  "version": "1.0.0",
+  "description": "webpack multipage",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tangsj/webpack-multipage-demo.git"
+  },
+  "author": "tangsj",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tangsj/webpack-multipage-demo/issues"
+  },
+  "homepage": "https://github.com/tangsj/webpack-multipage-demo#readme",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.8.2",
+    "style-loader": "^0.13.0",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
